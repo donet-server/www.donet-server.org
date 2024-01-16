@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--
-    Copyright (C) 2023 donet-server.org. All rights reserved.
-  -->
-  <head>
-    <title>donet-server.org</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content"width=device-width, initial-scale=1"/>
-    <meta http-equiv="refresh" content="30; URL=https://www.maxrdz.com/" />
-  </head>
-  <style>
-    ::-moz-selection {
-      background-color: transparent;
-    }
-    ::selection {
-      background-color: transparent;
-    }
-    body {
-      margin: 0;
-      background-color: #101010;
-      color: white;
-    }
-    body h1,h2,h3,h4 {
-      text-align: center;
-    }
-    a {
-      color: #3399ff;
-      text-decoration: none;
-    }
-    .header {
-      color: black;
-      background-color: pink;
-      padding: 0.05%;
-      text-align: center;
-      vertical-align: middle;
-    }
-    .header h1 {
-      font-size: 250%;
-    }
-    .footer {
-      background-color: transparent;
-      position: fixed;
-      text-align: center;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
-  <body>
-    <div class="header">
-      <h1>donet-server.org</h1>
-    </div>
-    <h1>Welcome to the official website for the Donet software project.</h1>
-    <h2>This website is currently under construction.</h2>
-    <br>
-    <h4>You will be redirected to <a href="https://www.maxrdz.com/">www.maxrdz.com</a> in 30 seconds.</h4>
-    <div class="footer">
-      Copyright &copy; 2023 donet-server.org. All rights reserved. Website source available <a href="https://github.com/donet-server/donet-server.github.io">here</a>.
-    </div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./logos/donet_banner.png" alt="logo_header">
+        <nav class="header__menu">
+            <a href="#" class="header__link">Manual</a>
+            <a href="#" class="header__link">About</a>
+            <a href="#" class="header__link">Features</a>
+        </nav>
+        <button class="navicon" type="button" onclick="myFunction()"><img src="images/navicon.png" alt="navicon"></button>
+    </header>
+    <nav class="header__mobile-menu">
+        <a href="#" class="header__link">Manual</a>
+        <a href="#" class="header__link">About</a>
+        <a href="#" class="header__link">Features</a>
+    </nav>
+    <main>
+        <section id="hero">
+            <div id="hero_content" class="container section">
+                <h1>Powering the next generation of massive virtual worlds.</h1>
+                <button class="btn">Learn How</button>
+            </div>  
+        </section>
+        <!-- <section></section> -->
+        <!-- <section></section> -->
+        <!-- <section></section> -->
+        <!-- <section></section> -->
+        <!-- <section></section> -->
+        <!-- <section></section> -->
+    </main>
+    <!-- <footer></footer> -->
+    <script>
+        function myFunction() {
+          var x = document.getElementsByClassName("header__mobile-menu");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+    <script type="module" src="./src/main.js"></script>
+</body>
 </html>
