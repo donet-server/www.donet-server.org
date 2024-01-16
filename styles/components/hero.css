@@ -1,0 +1,8 @@
+#hero {
+    background-color: var(--coral-clr);
+    padding: 5rem 0;
+}
+
+#hero_content button {
+    margin: 2.25rem 0;
+}
