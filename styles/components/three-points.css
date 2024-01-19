@@ -1,0 +1,26 @@
+#three-points {
+    background-image: linear-gradient(90deg, var(--mardigras-clr), var(--drkpurple-clr));
+}
+
+#three-points-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+#three-points-content h2 {
+    font-size: var(--size-4xl);
+    padding-bottom: 3rem;
+}
+
+#points-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+#points-container p {
+    width: 20rem;
+}

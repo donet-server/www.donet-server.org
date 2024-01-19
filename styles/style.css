@@ -3,7 +3,7 @@
 :root {
     --light-clr: #fff2f3;
     --cherry-blosson-clr: #F7B2B7;
-    --coral-clr: #F7717D;
+    --coral-clr: rgb(247, 113, 125);
     --thulian-clr: #DE639A;
     --mardigras-clr: #7F2982;
     --drkpurple-clr: #16001E;
@@ -47,5 +47,5 @@ a {
 }
 
 h1 {
-    font-size: var(--size-4xl);
+    font-size: var(--size-5xl);
 }

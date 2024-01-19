@@ -1,8 +1,17 @@
 #hero {
-    background-color: var(--coral-clr);
-    padding: 5rem 0;
+    background-color: rgba(247, 113, 124, 0.705);
+    padding: 2.5rem 0;
 }
 
 #hero_content button {
     margin: 2.25rem 0;
 }
+
+#heroVideo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-height: 768px;
+    min-width: 100vw;
+    z-index: -1;
+  }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/components/header.css">
     <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/components/three-points.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -27,12 +28,24 @@
     </nav>
     <main>
         <section id="hero">
+            <video autoplay muted loop id="heroVideo">
+                <source src="images/donet-homepage.webm" type="video/mp4">
+            </video>
             <div id="hero_content" class="container section">
                 <h1>Powering the next generation of massive virtual worlds.</h1>
                 <button class="btn">Learn How</button>
             </div>  
         </section>
-        <!-- <section></section> -->
+        <section id="three-points">
+            <div id="three-points-content" class="container section">
+                <h2>WHAT IS DONET</h2>
+                <div id="points-container">
+                    <p>Donet is a cutting-edge network engine designed for massive networked applications, in emphasis to building massive virtual online worlds.</p>
+                    <p> This project acts as middleware between the clients and the application’s logic. </p>
+                    <p>It is designed to be scalable to suit heavy duty applications that require serving real-time data to millions of clients.</p>        
+                </div>
+            </div>    
+        </section>
         <!-- <section></section> -->
         <!-- <section></section> -->
         <!-- <section></section> -->
