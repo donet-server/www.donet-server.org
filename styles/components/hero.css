@@ -14,4 +14,24 @@
     min-height: 768px;
     min-width: 100vw;
     z-index: -1;
-  }
+    /* Heard that adding a bcolor to the video element
+     * fixes crap on iOS devices. Lets pray it does. */
+    background-color: rgba(247, 113, 124, 0.01);
+}
+
+/* Hero Desktop Scaling (1080p) */
+@media only screen and (min-width: 700px) {
+    #hero {
+        min-height: 700px;
+    }
+    #hero_content h1 {
+        font-size: 350%;
+    }
+    #hero_content h1 span {
+        /* Breaks hero text to 2 lines on desktop */
+        display: inline-block;
+    }
+    #hero_content button {
+        font-size: 125%;
+    }
+}

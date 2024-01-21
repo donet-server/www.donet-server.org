@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    Copyright © 2024 www.donet-server.org. All rights reserved.
+
+    Website initial design and development by Karla Valeria Rodriguez.
+-->
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles/modern-normalize.css">
@@ -9,7 +14,11 @@
     <link rel="stylesheet" href="./styles/components/three-points.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Donet | Open Source Networking Engine</title>
+    <meta property='og:site_name' content='Donet | Open Source Networking Engine'>
+    <meta property='og:type' content='website'>
+    <meta property='og:updated_time' content='2024-01-20T18:40:00-07:00'/>
 </head>
 <body>
     <header>
@@ -28,12 +37,15 @@
     </nav>
     <main>
         <section id="hero">
-            <video playsinline autoplay muted loop controls="true" preload="auto" id="heroVideo">
+            <video playsinline autoplay muted loop preload="auto" id="heroVideo">
                 <source src="images/donet-homepage.webm" type="video/webm">
-                <source src="images/donet-homepage.mp4" type="video/mp4">
+		<source src="images/donet-homepage.mov" type="video/mp4">
             </video>
             <div id="hero_content" class="container section">
-                <h1>Powering the next generation of massive virtual worlds.</h1>
+                <h1>
+                    <span>Powering the next generation</span>
+		    <span>of massive virtual worlds.</span>
+                </h1>
                 <button class="btn">Learn How</button>
             </div>  
         </section>
