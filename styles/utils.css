@@ -17,6 +17,7 @@
 /* @media (max-width: 475px) {} */
 
 .btn {
+    transition: background-color .7s;
     display: inline-block;
     font-weight: 600;
     letter-spacing: .12em;
@@ -29,6 +30,10 @@
     margin: 1rem 0;
 }
 
+.btn:hover {
+    transition: background-color .7s;
+    background-color: #2c013d;
+}
 .container {
     max-width: 1536px;
     margin-left: auto;

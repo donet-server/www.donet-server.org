@@ -88,4 +88,8 @@
     #three-points-content h2{
         text-align: center;
     }
+
+    .point h3 {
+        font-size: var(--size-2xl);
+    }
 }
