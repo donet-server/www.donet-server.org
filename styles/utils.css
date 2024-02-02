@@ -30,7 +30,7 @@
 }
 
 .container {
-    max-width: 90rem; /* should always match max-width of header */
+    max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0.5rem;
