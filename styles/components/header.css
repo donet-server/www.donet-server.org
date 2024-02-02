@@ -3,21 +3,14 @@ header {
 }
 
 header {
-    height: 59.75px; /* height of header in px */
-    width: 100%;
-    z-index: 1;
-    margin: auto;
-}
-
-.header__container {
-    height: 100%;
-    max-width: 90rem; /* max header width */
-    box-sizing: inherit;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .logo {
-    display: inline-block;
     width: 140px;
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -25,11 +18,9 @@ header {
 
 .header__menu {
     display: flex;
-    float: right;
     align-items: center;
     list-style: none;
-    height: 100%;
-    box-sizing: inherit;
+    height: 59.75px; /* height of header in px */
 }
 
 .header__link {
@@ -76,9 +67,7 @@ header {
     }
     
     .navicon {
-        display: inline-block;
-	float: right;
-	height: 100%;
+        display: block;
     }
 
     .header__menu {
